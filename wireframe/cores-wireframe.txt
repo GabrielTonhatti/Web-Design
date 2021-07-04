@@ -1,0 +1,3 @@
+cinza claro: #d9e0e6
+cinza: #a9aeb3
+cinza escuro: #484b4d
