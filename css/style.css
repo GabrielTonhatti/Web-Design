@@ -391,18 +391,19 @@ img {
 }
 
 /* JavaScript */
+
 .js [data-slide] {
     position: relative
 }
 
-.js  [data-slide]>* {
+.js [data-slide]>* {
     position: absolute;
     top: 0;
     opacity: 0;
     pointer-events: none
 }
 
-.js  [data-slide]>.active {
+.js [data-slide]>.active {
     position: relative;
     opacity: 1;
     transition: opacity .5s;
@@ -411,13 +412,14 @@ img {
 }
 
 /* Slide Nav */
+
 .js [data-slide-nav] {
     display: block;
     text-align: center;
     margin-top: 20px;
 }
 
-.js [data-slide-nav] > button {
+.js [data-slide-nav]>button {
     display: inline-block;
     width: 12px;
     height: 12px;
@@ -447,4 +449,18 @@ img {
     opacity: 1;
     transform: none;
     transition: transform .8s, opacity .8s;
+}
+
+.nao-aparece {
+    visibility: hidden;
+    position: absolute;
+    height: 0px;
+}
+
+#form-sucesso {
+    color: #31aa39;
+}
+
+#form-erro {
+    color: #f64540;
 }
