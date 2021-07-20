@@ -51,7 +51,7 @@
 
     <section class="contato container fadeInDown" data-anime="1200">
 
-        <form action="" id="form_orcamento" method = "POST" action = "enviar.php" class="contato_form grid-8 formphp">
+        <form id="form_orcamento" method = "POST" action = "enviar.php" class="contato_form grid-8 formphp">
             <label for="nome">Nome</label>
             <input type="text" name="nome" id="nome" required>
             <label for="email">E-mail</label>
@@ -59,15 +59,15 @@
             <label for="telefone">Telefone</label>
             <input type="text" name="telefone" id="telefone">
 
-            <label for="" class="nao-aparece"> Se você não é um robô, deixe em branco. </label>
+            <label class="nao-aparece"> Se você não é um robô, deixe em branco. </label>
             <input type="text" class="nao-aparece" name="leveblank">
-            <label for="" class="nao-aparece"> Se você não é um robô, não mude este campo.</label>
+            <label class="nao-aparece"> Se você não é um robô, não mude este campo.</label>
             <input type="text" class="nao-aparece" name="leveblank">
             <input type="text" class="nao-aparece" name="dontchange" value="http://">
 
             <label for="mensagem">Mensagem</label>
             <textarea id="mensagem" name="mensagem" required></textarea>
-            <button id = "enviar" name = ""enviar type="submit" class="btn btn-preto"> Enviar </button>
+            <button id = "enviar" name = "enviar" type="submit" class="btn btn-preto"> Enviar </button>
         </form>
 
         <div class="contato_dados grid-8">
@@ -95,13 +95,13 @@
     </section>
 
 
-    <section class="quebra">
+    <div class="quebra">
         <blockquote class="quote-externo container">
             <p>""O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida
                 cotidiana""</p>
             <cite> WILLIAM MORRIS </cite>
         </blockquote>
-    </section>
+    </div>
 
     <footer>
         <div class="footer">
@@ -127,7 +127,7 @@
                         <li><a href="http://instagram.com" target="_blank"> <img src="img/redes-sociais/instagram.svg"
                                     alt="Instagram"></a> </li>
                         <li><a href="http://twitter.com" target="_blank"> <img src="img/redes-sociais/twitter.svg"
-                                    alt=""></a> </li>
+                                    alt="Twitter"></a> </li>
                     </ul>
                 </div>
             </div>
